@@ -36,7 +36,7 @@ namespace MaktabGroup4P
                 EmployeeId= 1,
                 month=1,
                 OtherBenefit= 100,
-                Tax = 1,
+                Tax = 100,
                 year=2023
             },
              new salary()
@@ -46,7 +46,7 @@ namespace MaktabGroup4P
                 EmployeeId= 1,
                 month=2,
                 OtherBenefit= 500,
-                Tax = 1,
+                Tax = 1000,
                 year=2023
             },
               new salary()
@@ -56,7 +56,7 @@ namespace MaktabGroup4P
                 EmployeeId= 1,
                 month=3,
                 OtherBenefit= 400,
-                Tax = 1,
+                Tax = 200,
                 year=2023
             },
                  new salary()
@@ -66,7 +66,7 @@ namespace MaktabGroup4P
                 EmployeeId= 2,
                 month=3,
                 OtherBenefit= 1000,
-                Tax = 1,
+                Tax =700,
                 year=2023
             },
                     new salary()
@@ -74,9 +74,9 @@ namespace MaktabGroup4P
                 Id= 5,
                 Amount =3000,
                 EmployeeId= 2,
-                month=3,
+                month=4,
                 OtherBenefit= 0,
-                Tax = 1,
+                Tax = 900,
                 year=2023
             },
         };

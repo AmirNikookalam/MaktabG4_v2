@@ -1,16 +1,32 @@
-﻿namespace MaktabGroup4P
+﻿using MaktabGroup4P.Services;
+
+namespace MaktabGroup4P
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string personID = string.Empty;
-            string Year = string.Empty;
-            string Month = string.Empty;
+            EmployeeServicecs employee = new EmployeeServicecs();
+            SalaryService salary = new SalaryService();
+            int personID = 0;
+            int year =0 ;
+            int month = 0; 
 
-            Console.WriteLine("Please give your ID: \n- ");
-            Console.WriteLine("Please give your Year: \n- ");
-            Console.WriteLine("Please give your Month: \n- ");
+            Console.Write("Please give your ID: \n- ");
+            personID =Convert.ToInt32 (Console.ReadLine());
+
+            Console.Write("Please give your Year: \n- ");
+            year = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Please give your Month: \n- ");
+            month = Convert.ToInt32(Console.ReadLine());
+
+           
+
+            foreach (var item in salary.PaySlipByIdForOneMonth(personID,month,year))
+            {
+                Console.WriteLine($"Id Number is {item.Id} and the name is {item.Name}, The tax is {item.Tax} and amount of income is {item.Amount} and otherBenefits are {item.OtherBenefit}. ");
+            }
 
         }
     }
