@@ -12,7 +12,7 @@ namespace MaktabGroup4P.Models
         public string Fname { get; set; }
         public string Lname { get; set; }
         public int Nationlcode { get; set; }
-        public int Mobail { get; set;}
+        public string Mobail { get; set;}
         public string Gender { get; set; }
         public string Email { get; set; }
     }
