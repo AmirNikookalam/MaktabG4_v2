@@ -1,15 +1,10 @@
 ﻿using MaktabGroup4P.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MaktabGroup4P
 {
     public class AppDB
     {
-        List<Employee> employees = new List<Employee>()
+        public List<Employee> employees = new List<Employee>()
         {
             new Employee()
             {
@@ -17,22 +12,22 @@ namespace MaktabGroup4P
                 Lname = "ali" ,
                 Fname = "mohamadi" ,
                 Email = "ali@gmail.com" ,
-                Gender = "men" ,
+                Gender = "male" ,
                 Mobail = "09365256355",
                 Nationlcode=323
             },
              new Employee()
             {
                 Id = 2,
-                Lname = "milad" ,
+                Lname = "maryam" ,
                 Fname = "mahmodi" ,
-                Email = "milad@gmail.com" ,
-                Gender = "men" ,
+                Email = "maryam@gmail.com" ,
+                Gender = "female" ,
                 Mobail = "09365698532",
                 Nationlcode=324
             },
         };
-        List<salary> salary = new List<salary>()
+        public List<salary> salary = new List<salary>()
         {
             new salary()
             {
