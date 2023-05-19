@@ -35,8 +35,8 @@ namespace MaktabGroup4P
                 Amount =2000,
                 EmployeeId= 1,
                 month=1,
-                OtherBenefit= "null",
-                Taxt = 1,
+                OtherBenefit= 100,
+                Tax = 1,
                 year=2023
             },
              new salary()
@@ -45,8 +45,8 @@ namespace MaktabGroup4P
                 Amount =3000,
                 EmployeeId= 1,
                 month=2,
-                OtherBenefit= "null",
-                Taxt = 1,
+                OtherBenefit= 500,
+                Tax = 1,
                 year=2023
             },
               new salary()
@@ -55,8 +55,8 @@ namespace MaktabGroup4P
                 Amount =3000,
                 EmployeeId= 1,
                 month=3,
-                OtherBenefit= "null",
-                Taxt = 1,
+                OtherBenefit= 400,
+                Tax = 1,
                 year=2023
             },
                  new salary()
@@ -65,8 +65,8 @@ namespace MaktabGroup4P
                 Amount =3000,
                 EmployeeId= 2,
                 month=3,
-                OtherBenefit= "null",
-                Taxt = 1,
+                OtherBenefit= 1000,
+                Tax = 1,
                 year=2023
             },
                     new salary()
@@ -75,8 +75,8 @@ namespace MaktabGroup4P
                 Amount =3000,
                 EmployeeId= 2,
                 month=3,
-                OtherBenefit= "null",
-                Taxt = 1,
+                OtherBenefit= 0,
+                Tax = 1,
                 year=2023
             },
         };

@@ -19,7 +19,9 @@ namespace MaktabGroup4P.Services
 
         public List<EmployeeNameViewModel> GetMenEmpName()
         {
-            var empMenNames = from db in dataBase.employees select new EmployeeNameViewModel() { Fname = db.Fname, Lname = db.Lname, Id = db.Id };
+            var empMenNames = from db in dataBase.employees
+                              where db.Gender == "male" 
+                              select new EmployeeNameViewModel() { Fname = db.Fname, Lname = db.Lname, Id = db.Id };
             return empMenNames.ToList();
         }
          
