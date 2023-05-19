@@ -11,7 +11,7 @@ namespace MaktabGroup4P.InterFace
     {
         decimal GetTotalSalaryById(int id);
         decimal GetSumTotalTaxPaid();
-        List<PaySlipViewModel> PaySlipByIdForOneMonth(int id, int month, int year);
+        List<PaySlip> PaySlipByIdForOneMonth(int id, int month, int year);
     }
     
 }
